@@ -45,9 +45,6 @@ export PATH="$HOME/.rbenv/bin:$PATH"
 # Load rbenv
 eval "$(rbenv init -)"
 
-# Load SSH Agent
-eval `ssh-agent`
-
 # Load nvm
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
