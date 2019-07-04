@@ -170,7 +170,8 @@ set noshowmode                              " Never show mode
 set showcmd                                 " Show commands as you type them
 set expandtab                               " Replace tabs by white spaces characters
 set shiftwidth=2                            " Makes the tabulations be 2 white spaces
-"}}}
+set nornu
+set number
 
 " ---------------------------------------------------------------------------------------------------------------------
 " Split settings (more natural) {{{
@@ -266,9 +267,10 @@ let g:NERDTreeRespectWildIgnore=1
 "}}}
 
 " -----------------------------------------------------
-" Run linters after save {{{
+" Buftabline {{{
 " -----------------------------------------------------
-
+let g:buftabline_show = 2       " Always show
+let g:buftabline_numbers = 2    " Ordinal from left-to-right
 "}}}
 
 " ======================================================================================================================
