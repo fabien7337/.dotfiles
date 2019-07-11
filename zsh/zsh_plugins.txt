@@ -8,3 +8,5 @@ zsh-users/zsh-syntax-highlighting
 zsh-users/zsh-history-substring-search
 
 bobsoppe/zsh-ssh-agent
+
+lukechilds/zsh-nvm
