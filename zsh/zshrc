@@ -44,6 +44,11 @@ bindkey '^[OB' history-substring-search-down
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 export PATH="$HOME/.rbenv/bin:$PATH"
 
+# Load GO
+export GOPATH=$HOME/code/go
+export PATH=$PATH:/usr/local/go/bin
+export PATH=$GOPATH:$GOPATH/bin:$PATH
+
 # Load rbenv
 eval "$(rbenv init -)"
 
