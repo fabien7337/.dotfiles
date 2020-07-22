@@ -14,4 +14,10 @@
 
 * Set ZSH as default shell: ```chsh -s $(which zsh)```
 
+* Install Antibody: https://github.com/getantibody/antibody
+
+* Install rbenv: https://github.com/rbenv/rbenv#installation
+
+* Install rbenv-build: https://github.com/rbenv/ruby-build#readme
+
 * Restore OR Generate a new SSH Key: https://help.github.com/articles/generating-ssh-keys/
