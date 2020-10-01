@@ -193,7 +193,7 @@ endif
 if has('nvim')
   let g:loaded_python_provider=1                        " Disable python 2 interface
   let g:python_host_skip_check=1                        " Skip python 2 host check
-  let g:python3_host_prog='/usr/bin/python3.6'          " Set python 3 host program
+  let g:python3_host_prog='/usr/bin/python3.8'          " Set python 3 host program
   set inccommand=nosplit                                " Live preview of substitutes and other similar commands
 endif
 
