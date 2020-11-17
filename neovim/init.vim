@@ -44,9 +44,11 @@ Plug 'tpope/vim-commentary'
 " Ruby support (plays nicely with tpope/rbenv-ctags)
 Plug 'vim-ruby/vim-ruby'
 " Haml syntax
+Plug 'tpope/vim-haml'
+" Rails support
 Plug 'tpope/vim-rails', { 'for': ['ruby', 'eruby', 'haml', 'slim'] }
-" Rails syntax
-Plug 'tpope/vim-rails'
+" Bundler support
+Plug 'tpope/vim-bundler'
 
 
 " JS (ES6, React)
