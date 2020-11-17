@@ -1,22 +1,23 @@
 # FRESH INSTALL TODO
 
-* Install homebrew: https://github.com/Homebrew/homebrew
-
-* Install Cask: https://github.com/caskroom/homebrew-cask
-
-* Install Oh-my-zsh: https://github.com/robbyrussell/oh-my-zsh
-
 * ```git clone https://github.com/zywx/.dotfiles```
 
-* Add some user configuration in .zsh
-	- ZSH_THEME="zywx"
-	- export HOMEBREW_CASK_OPTS="--appdir=/Applications"
+* Link Tmux: ```ln -s .dotfiles/tmux/tmux.conf .tmux.conf```
 
-* Launch sh ~/.dotfiles/cask.sh
+* Link Git Config: ```ln -s .dotfiles/gitconfig .gitconfig```
 
-* Sublime Text Configuration:
-  - Install After Glow: https://github.com/YabataDesign/afterglow-theme
-  - Copy/Paste User Configuration: https://github.com/zywx/.dotfiles/sublime-text.config
-  - Plugins: Apache Hive, Sass,
+* Link zshrc: ```ln -s .dotfiles/zsh/zshrc .zshrc```
+
+* Link zsh plugins: ```ln -s .dotfiles/zsh/zsh_plugins.txt .zsh_plugins.txt```
+
+* Install ZSH: ```sudo apt install zsh```
+
+* Set ZSH as default shell: ```chsh -s $(which zsh)```
+
+* Install Antibody: https://github.com/getantibody/antibody
+
+* Install rbenv: https://github.com/rbenv/rbenv#installation
+
+* Install rbenv-build: https://github.com/rbenv/ruby-build#readme
 
 * Restore OR Generate a new SSH Key: https://help.github.com/articles/generating-ssh-keys/
