@@ -6,9 +6,9 @@
 
 * Link Git Config: ```ln -s .dotfiles/gitconfig .gitconfig```
 
-* Link zshrc: ```ln -s .dotfiles/zsh/zshrc .zshrc```
+* Link zshrc: ```ln -s ~/.dotfiles/zsh/zshrc ~/.zshrc ~/.zshrc```
 
-* Link zsh plugins: ```ln -s .dotfiles/zsh/zsh_plugins.txt .zsh_plugins.txt```
+* Link zsh plugins: ```ln -s ~/.dotfiles/zsh/zsh_plugins.txt ~/.zsh_plugins.txt```
 
 * Install ZSH: ```sudo apt install zsh```
 
